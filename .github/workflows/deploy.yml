@@ -1,0 +1,30 @@
+# .github/workflows/deploy.yml
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # O la rama que uses
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Subir contenido
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: .
+
+      - name: Publicar en GitHub Pages
+        uses: actions/deploy-pages@v3
