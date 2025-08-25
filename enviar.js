@@ -1,12 +1,12 @@
 // Configura tu Firebase aquí
 const firebaseConfig = {
-  apiKey: "TU_API_KEY",
-  authDomain: "TU_PROYECTO.firebaseapp.com",
-  databaseURL: "https://TU_PROYECTO.firebaseio.com",
-  projectId: "TU_PROYECTO",
-  storageBucket: "TU_PROYECTO.appspot.com",
-  messagingSenderId: "TU_ID",
-  appId: "TU_APP_ID"
+  apiKey: "AIzaSyDlwWegSFH46DgLOYkU0nAIV4boTe5bBM8",
+  authDomain: "alertatv-6c92f.firebaseapp.com",
+  projectId: "alertatv-6c92f",
+  storageBucket: "alertatv-6c92f.firebasestorage.app",
+  messagingSenderId: "7708017692",
+  appId: "1:7708017692:web:48bb6e7b525f8e23170bd9",
+  measurementId: "G-LL3FWNH09M"
 };
 
 // Inicializa Firebase
